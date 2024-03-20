@@ -32,23 +32,23 @@ const products = [
 			<div class="container flex items-center">
 				<img class="h-[61px]" src="/public/Aliexpress.webp" alt="" srcset="" />
 				<div class="relative">
-				<input placeholder="Buscar..." class="h-9 rounded-full pl-5 outline-none pr-14 		">
+				<input placeholder="Buscar..." class="h-9 rounded-full pl-5 outline-none pr-14 w-[950px]">
 				<div class="bg-zinc-800 absolute right-1 top-[2px] inline-block text-white rounded-2xl py-1 px-2">
 					<Icon name="mdi:search" class="size-6" />
 				</div>
 			</div>
-			<div class="text-white text-xs flex px-2">
+			<div class="text-white text-xs flex ">
 				<div class="px-1">
 					<Icon name="mdi:qrcode-scan" class="size-8 inline-block items-center"/>
 				</div>
 			 	<div class="inline-block px-2">
-				<p>descarga la app <br> de Aliexpress</p>	
+				<p>descarga la app de Aliexpress</p>	
 				</div>
 
-				<div class="px-1">
+				<div class="">
 					<Icon name="flagpack:co" class="size-6 inline-block items-center"/>
 				</div>
-				<div class="inline-block px-1">	
+				<div class="inline-block px-2">	
 				<p>ES/</p>
 				<p class="font-extrabold">COP</p>	
 				</div> 
@@ -56,9 +56,8 @@ const products = [
 				<div class="">
 					<Icon name="mdi:user-outline" class="size-8 inline-block items-center"/>
 				</div>
-				<div class="inline-block px-1">	
-				<p>¡Bienvenido <br>
-					Identifícate / Regístrate!</p>	
+				<div class="inline-block px-2">	
+				<p>¡Bienvenido Identifícate / Regístrate!</p>	
 				</div> 
 				<div class="">
 					<Icon name="mdi:cart" class="size-7 inline-block items-center"/>
@@ -69,7 +68,21 @@ const products = [
 			</div>
 			</div>
 		</div>
-		<div class="container banner">BANNER</div>
+
+		<div class="bg-zinc-800 container max-w-full justify-center flex flex-wrap gap-1">
+		<div class="container flex justify-around text-white mb-2 items-center">
+			<a class="h-10 relative group text-lg rounded-full border-2 text-center px-4 " href="#">
+				Todas las categorias
+		<menu class="hidden group-hover:block left-0 top-7 w-full absolute bg-zinc-800 rounded-2xl border-2">
+			<ul>
+				<li>opcion 1</li>
+				<li>opcion 2</li>
+				<li>opcion 3</li>
+			</ul>
+		</menu>
+	</a>
+	</div>
+</div>
 		<nav class="container main_menu">
 			<a href="/">Inicio</a>
 			<a href="/products">Products</a>
