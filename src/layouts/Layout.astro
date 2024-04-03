@@ -73,21 +73,70 @@ const products = [
 		<div class="container flex justify-around text-white mb-2 items-center">
 			<a class="h-10 relative group text-lg rounded-full border-2 text-center px-4 " href="#">
 				Todas las categorias
-		<menu class="hidden group-hover:block left-0 top-7 w-full absolute bg-zinc-800 rounded-2xl border-2">
+		<menu class="hidden group-hover:block left-0 top-7 w-full absolute bg-zinc-600 rounded-2xl border-2">
 			<ul>
 				<li>opcion 1</li>
 				<li>opcion 2</li>
 				<li>opcion 3</li>
 			</ul>
 		</menu>
+		<a class="h-10 text-lg pt-[6px]" href="">NN</a>
+		<a class="h-10 text-lg pt-[6px]" href="">BestSellers</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Best Brands</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Home and Garden</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Hair and wings</a>
+		<a class="h-10 text-lg pt-[6px]" href="">men´s fashion</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Accesories</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Electronics</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Home and lighting</a>
+		<a class="h-10 text-lg pt-[6px]" href="">Further</a>
+
 	</a>
 	</div>
 </div>
-		<nav class="container main_menu">
-			<a href="/">Inicio</a>
-			<a href="/products">Products</a>
-		</nav>
-		<div class="container products_list">
+
+<div class="container py-10 px-24 grid grid-cols-2 gap-5">
+
+	<div class="w-[660px] space-y-4">
+	<div class="bg-zinc-100 h-44 rounded-3xl px-10 py-7 grid grid-cols-2">
+
+		<p class="bg-zinc-900 text-white w-72 h-12 rounded-3xl px-3 py-1 text-xl text-center">Register</p>
+		<p class="w-72 h-12 rounded-3xl px-3 py-1 text-xl border-2 text-center">Sing Up</p>
+		<p class="text-sm text-center">or continue with </p>
+
+	</div>
+	<div class="bg-red-50 h-96 rounded-3xl px-10 py-7 ">
+		<p class="text-red-500 text-2xl font-bold" >Welcome Deal</p>
+		<p class="text-lg">Your exclusive price</p>
+		<img class="h-56 w-72 rounded-xl py-2" src="https://www.tecnoseguro.com/media/xt-adaptive-images/480/media/k2/items/cache/5cc5bdec44afd18d5d9a556fa7cc2a37_XL.webp" alt="">
+		<p class="text-red-500 text-xl font-extrabold">COP 219.302</p>
+	</div>
+	</div>
+
+	<div class="w-[1000px] space-y-4">
+	<div class="bg-zinc-100 h-[335px] rounded-3xl px-7 py-5">
+		<p class="text-2xl font-extrabold inline-block italic">Super</p><p class="text-red-500 text-2xl font-extrabold inline-block italic">Deals</p>
+		<p class="">Top Products. Incredible price</p>
+		<div class=" flex gap-40 mt-3">
+			<div>
+			<img class="rounded-2xl h-[200px] w-[400px]" src="https://falabella.scene7.com/is/image/FalabellaCO/gsc_123007017_3512242_1?wid=800&hei=800&qlt=70" alt="">
+			<span class="text-red-500 font-bold mt-2">COP32.000</span>
+		</div>
+		<div>
+			<img class="rounded-2xl h-[200px] w-[400px]" src="https://carulla.vtexassets.com/arquivos/ids/667207/Maquina-de-afeitar-electrica-Braun-Series-7-7075cc.jpg?v=637166423296170000" alt="">
+			<span class="text-red-500 font-bold mt-2">COP32.000</span>
+		</div>
+		<div>
+			<img class="rounded-2xl h-[200px] w-[400px]" src="data:image/jpeg;base64,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" alt="">
+			<span class="text-red-500 font-bold mt-2">COP32.000</span>
+		</div>
+		</div>
+	</div>
+	<div class="bg-zinc-100 h-56 rounded-3xl"></div>
+	</div>
+</div>
+
+		<!-- <div class="container products_list">
 			{
 				products.map((product) => (
 					<div>
@@ -106,10 +155,10 @@ const products = [
 						{product.name}
 					</div>
 				))
-			}
+			} -->
 		</div>
 		<div class="container products_categories">categories</div>
-		<div class="container">
+		<div class="">
 			<slot />
 		</div>
 		<div class="container footer">Footer</div>
